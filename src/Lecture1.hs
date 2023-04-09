@@ -113,7 +113,6 @@ start position can be considered as zero (e.g. substring from the
 first character) and negative end position should result in an empty
 string.
 -}
-subString :: Integer -> Integer -> String -> String
 subString :: Int -> Int -> String -> String
 subString start end str
     | start > end = ""
